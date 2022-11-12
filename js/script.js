@@ -29,9 +29,9 @@ function onTabClick(e) {
     const classString = e.target.getAttribute('data-target')
 
     document
-        .getElementById('panels')
-        .getElementsByClassName(classString)[0]
-        .classList.remove('hidden')
-
-
+    .getElementById('panels')
+    .getElementsByClassName(classString)[0]
+    .classList.remove('hidden')
 }
+
+
